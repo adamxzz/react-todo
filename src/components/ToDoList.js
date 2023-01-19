@@ -10,7 +10,7 @@ const ToDoList = () => {
 
             </Card.Body>
             <Card.Footer>
-                <Button variant='primary' className='float-end'>Add</Button
+                <Button variant='primary' className='float-end'>Add</Button>
             </Card.Footer>
         </Card>
     );
