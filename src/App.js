@@ -1,10 +1,23 @@
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
+import './assets/app.css';
+
 import ToDoList from "./components/ToDoList";
+
 const App = () => {
 
-return(
-    <><h1>来自App.js的问候</h1>
-    <ToDoList /></>
-);
+    return (
+        <Container className="mt-5">
+            <Row>
+                <Col>
+                    <ToDoList/>
+                </Col>
+            </Row>
+        </Container>
+
+    );
 
 }
 
